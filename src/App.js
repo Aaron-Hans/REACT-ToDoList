@@ -1,23 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "../node_modules/bootstrap/dist/css/bootstrap.css";
+import Form from "./components/Form";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="text-center mt-3">ToDo-List</h1>
+      <Form />
     </div>
   );
 }
